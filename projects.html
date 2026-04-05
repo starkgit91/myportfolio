@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects — Prashant Mishra</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+<nav class="navbar">
+  <a href="index.html" class="nav-brand">
+    <div class="nav-dots"><span class="nav-dot"></span><span class="nav-dot"></span><span class="nav-dot"></span><span class="nav-dot"></span></div>
+    Prashant Mishra
+  </a>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="projects.html" class="active">Projects</a></li>
+    <li><a href="research.html">Research</a></li>
+    <li><a href="achievements.html">Achievements</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+  <a href="https://drive.google.com/file/d/1IBBDi0EcNXQ4xiTMYaw3Rx1tNBXe6ZVm/view" target="_blank" class="nav-cta btn ripple-btn">
+    <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M12 10v6m0 0l-3-3m3 3l3-3M3 17V7a2 2 0 012-2h6l2 2h6a2 2 0 012 2v8a2 2 0 01-2 2H5a2 2 0 01-2-2z"/></svg>
+    Resume
+  </a>
+  <div class="nav-toggle"><span></span><span></span><span></span></div>
+</nav>
+
+<div class="page-content">
+
+<div class="page-hero">
+  <a href="index.html" class="page-hero-back">
+    <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M10 19l-7-7m0 0l7-7m-7 7h18"/></svg>
+    Back to Home
+  </a>
+  <div class="section-label">Work</div>
+  <h1>Projects</h1>
+  <p>Hardware design, AI research, wireless systems — end-to-end.</p>
+</div>
+
+<section>
+
+  <!-- ── HARDWARE / ARCHITECTURE ── -->
+  <div class="section-label" style="margin-bottom:16px;">Computer Architecture & Hardware</div>
+
+  <!-- Featured RISC-V -->
+  <div class="featured-card reveal" style="margin-bottom:24px;">
+    <div class="featured-card-content">
+      <span class="badge">⭐ Featured · Computer Architecture</span>
+      <h3>RISC-V Pipelined Processor Implementation</h3>
+      <p>A complete 5-stage pipelined processor implementing the RV32I ISA in Verilog. Features full hazard detection (data and control hazards), a forwarding/bypassing unit for performance, branch prediction, and complete testbench verification. The design follows classical pipeline architecture: Instruction Fetch → Decode → Execute → Memory → Write-back.</p>
+      <div class="project-tech" style="margin-bottom:20px;">
+        <span class="tech-tag blue">Verilog HDL</span>
+        <span class="tech-tag green">RISC-V RV32I ISA</span>
+        <span class="tech-tag">5-Stage Pipeline</span>
+        <span class="tech-tag red">Hazard Detection Unit</span>
+        <span class="tech-tag">Data Forwarding</span>
+        <span class="tech-tag">Branch Prediction</span>
+        <span class="tech-tag yellow">Icarus Verilog</span>
+      </div>
+      <div style="display:flex;gap:12px;flex-wrap:wrap;">
+        <a href="https://github.com/starkgit91/RISC-V-Pipelined-Processor-Implementation" target="_blank" class="btn btn-primary ripple-btn" style="font-size:14px;padding:9px 20px;">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+          View on GitHub
+        </a>
+      </div>
+    </div>
+    <div class="featured-card-icon">🖥️</div>
+  </div>
+
+  <!-- ── WIRELESS / NETWORKING ── -->
+  <div class="section-label" style="margin-bottom:16px;margin-top:40px;">Wireless & Networking (AI/ML)</div>
+  <div class="card-grid stagger-children" style="margin-bottom:48px;">
+
+    <div class="project-card">
+      <div class="project-card-header">
+        <div class="project-icon" style="background:var(--blue-light);">📡</div>
+        <div class="project-meta">
+          <h3>LLM-Driven Network Slicing via RIC</h3>
+          <p>M.Tech Thesis · IIT Indore · Ongoing</p>
+        </div>
+      </div>
+      <div class="project-card-body">
+        <p class="project-desc">Designing an intelligent network slicing framework using Large Language Models (LLMs) on the O-RAN RAN Intelligent Controller (RIC). The system deploys xApps and rApps to autonomously manage radio resource allocation, QoS enforcement, and slice lifecycle in 5G NR networks. Integrates real-time telemetry with LLM inference for adaptive decision-making.</p>
+        <div class="project-tech">
+          <span class="tech-tag blue">O-RAN RIC</span>
+          <span class="tech-tag">xApp / rApp</span>
+          <span class="tech-tag green">5G NR</span>
+          <span class="tech-tag">LLM</span>
+          <span class="tech-tag">Python</span>
+          <span class="tech-tag red">Network Slicing</span>
+        </div>
+      </div>
+      <div class="project-card-footer">
+        <a href="https://github.com/starkgit91" target="_blank" class="project-link">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+          GitHub
+        </a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-card-header">
+        <div class="project-icon" style="background:var(--red-light);">🔐</div>
+        <div class="project-meta">
+          <h3>Zero-Day Attack Detection</h3>
+          <p>IEEE Publication · Security ML</p>
+        </div>
+      </div>
+      <div class="project-card-body">
+        <p class="project-desc">ML-based network intrusion detection system for identifying zero-day cyberattacks in real-time network traffic. Uses ensemble classifiers and unsupervised anomaly detection to flag novel attack patterns without prior signatures. Published in IEEE proceedings.</p>
+        <div class="project-tech">
+          <span class="tech-tag red">IEEE Published</span>
+          <span class="tech-tag">Ensemble ML</span>
+          <span class="tech-tag">Anomaly Detection</span>
+          <span class="tech-tag green">Python</span>
+          <span class="tech-tag">Network Security</span>
+        </div>
+      </div>
+      <div class="project-card-footer">
+        <a href="research.html" class="project-link">Read Paper →</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── AI / ML ── -->
+  <div class="section-label" style="margin-bottom:16px;margin-top:8px;">AI & Machine Learning</div>
+  <div class="card-grid stagger-children">
+
+    <div class="project-card">
+      <div class="project-card-header">
+        <div class="project-icon" style="background:var(--green-light);">🎙️</div>
+        <div class="project-meta">
+          <h3>Automatic Speech Recognition (ASR)</h3>
+          <p>Deep Learning · RNN / LSTM</p>
+        </div>
+      </div>
+      <div class="project-card-body">
+        <p class="project-desc">End-to-end ASR pipeline using deep Bidirectional LSTM networks with CTC loss. Integrated beam search decoding, temporal smoothing, and MFCC feature extraction achieving state-of-the-art Word Error Rate on benchmark corpora.</p>
+        <div class="project-tech">
+          <span class="tech-tag green">Bi-LSTM</span>
+          <span class="tech-tag">CTC Loss</span>
+          <span class="tech-tag blue">PyTorch</span>
+          <span class="tech-tag">MFCC</span>
+          <span class="tech-tag">Beam Search</span>
+        </div>
+      </div>
+      <div class="project-card-footer">
+        <a href="https://github.com/starkgit91" target="_blank" class="project-link">GitHub →</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-card-header">
+        <div class="project-icon" style="background:var(--yellow-light);">🧬</div>
+        <div class="project-meta">
+          <h3>Neural Modeling of Genetic Circuits</h3>
+          <p>IIT Kanpur Research Internship</p>
+        </div>
+      </div>
+      <div class="project-card-body">
+        <p class="project-desc">Collaborated with Prof. Abhilash Patel at IIT Kanpur to model synthetic genetic circuits using first and second-order system approximations. Employed neural ODEs and RL-based control to simulate biological switches and logic gates, accelerating biological circuit design.</p>
+        <div class="project-tech">
+          <span class="tech-tag yellow">Neural ODEs</span>
+          <span class="tech-tag">RL Control</span>
+          <span class="tech-tag green">Synthetic Biology</span>
+          <span class="tech-tag">Python</span>
+        </div>
+      </div>
+      <div class="project-card-footer">
+        <a href="research.html" class="project-link">Research →</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-card-header">
+        <div class="project-icon" style="background:var(--blue-light);">👁️</div>
+        <div class="project-meta">
+          <h3>ODIR-5K Eye Disease Classifier</h3>
+          <p>Medical Imaging · Self-Supervised Learning</p>
+        </div>
+      </div>
+      <div class="project-card-body">
+        <p class="project-desc">Tackled long-tail multilabel retinal disease classification using self-supervised ResNet variants with contrastive pretraining. Incorporated focal loss and class-balanced sampling to achieve significant macro F1-score improvements over supervised baselines.</p>
+        <div class="project-tech">
+          <span class="tech-tag blue">Self-Supervised</span>
+          <span class="tech-tag">ResNet</span>
+          <span class="tech-tag red">Contrastive Loss</span>
+          <span class="tech-tag">Medical Imaging</span>
+          <span class="tech-tag green">PyTorch</span>
+        </div>
+      </div>
+      <div class="project-card-footer">
+        <a href="https://github.com/starkgit91" target="_blank" class="project-link">GitHub →</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-card-header">
+        <div class="project-icon" style="background:var(--red-light);">📊</div>
+        <div class="project-meta">
+          <h3>SHL Assessment Recommender</h3>
+          <p>LLM + Vector Retrieval · Production</p>
+        </div>
+      </div>
+      <div class="project-card-body">
+        <p class="project-desc">Semantic retrieval system using Gemini LLM embeddings and a vector database to recommend SHL psychometric assessment modules based on job descriptions. Optimized for sub-100ms inference latency and deployed on Vercel with modular FastAPI backend.</p>
+        <div class="project-tech">
+          <span class="tech-tag red">Gemini LLM</span>
+          <span class="tech-tag">Vector DB</span>
+          <span class="tech-tag blue">FastAPI</span>
+          <span class="tech-tag">Vercel</span>
+          <span class="tech-tag">RAG</span>
+        </div>
+      </div>
+      <div class="project-card-footer">
+        <a href="https://github.com/starkgit91" target="_blank" class="project-link">GitHub →</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-card-header">
+        <div class="project-icon" style="background:var(--green-light);">🔧</div>
+        <div class="project-meta">
+          <h3>Car Repair Shop Management System</h3>
+          <p>Full-Stack · Node.js + MongoDB</p>
+        </div>
+      </div>
+      <div class="project-card-body">
+        <p class="project-desc">Full-stack web application for managing automotive repair shop operations including employee records, service tickets, appointment scheduling, and role-based authentication. Built with Node.js, Express, MongoDB and real-time analytics dashboard.</p>
+        <div class="project-tech">
+          <span class="tech-tag green">Node.js</span>
+          <span class="tech-tag">Express</span>
+          <span class="tech-tag blue">MongoDB</span>
+          <span class="tech-tag">REST API</span>
+          <span class="tech-tag">JWT Auth</span>
+        </div>
+      </div>
+      <div class="project-card-footer">
+        <a href="https://github.com/starkgit91" target="_blank" class="project-link">GitHub →</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+</div>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="research.html">Research</a>
+      <a href="contact.html">Contact</a>
+      <a href="https://github.com/starkgit91" target="_blank">GitHub ↗</a>
+    </div>
+    <p class="footer-copy">© 2025 Prashant Mishra · IIT Indore</p>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
